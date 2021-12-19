@@ -13,7 +13,7 @@ def translate(word):
         return data[word.upper()]
     elif len(get_close_matches(word , data.keys())) > 0 :
         print("Did you mean %s instead" %get_close_matches(word, data.keys())[0])
-        decide = input("Press Y for yes or N for no: ")
+        decide = input("Press y for yes or n for no: ")
         if decide == "y":
             return data[get_close_matches(word , data.keys())[0]]
         elif decide == "n":
