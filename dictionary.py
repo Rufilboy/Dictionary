@@ -13,15 +13,15 @@ def translate(word):
         return data[word.upper()]
     elif len(get_close_matches(word , data.keys())) > 0 :
         print("Did you mean %s instead" %get_close_matches(word, data.keys())[0])
-        decide = input("Press y for yes or n for no: ")
-        if decide == "y":
+        choice = input("Press y for yes or n for no: ")
+        if choice == "y":
             return data[get_close_matches(word , data.keys())[0]]
-        elif decide == "n":
-            return("Pugger your paw steps on wrong keys. ")
+        elif choice == "n":
+            return("Unable to locate your search.")
         else:
-            return("You have entered wrong input, unable to locate your search.")
+            return("You have entered wrong input, cross-check it!!!")
     else:
-        print("Pugger your paw steps on wrong keys")
+        print("Unable to locate your search.")
 
 
 
