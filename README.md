@@ -1,9 +1,6 @@
 # Dictionary
 This is just a simple dictonary built with python.
 
-# Author
-@Rufilboy
-
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
