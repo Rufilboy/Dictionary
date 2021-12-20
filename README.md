@@ -2,7 +2,7 @@
 This is just a simple dictonary built with python.
 
 ## Usage
-Install git:
+Make sure you've python3 installed!, then install git:
 ```sh
 sudo apt install git
 ```
@@ -10,7 +10,7 @@ Clone the repo:
 ```sh
 git clone https://github.com/Rufilboy/Dictionary.git
 ```
-Then run:
+And run:
 ```sh
 cd Dictionary
 ```
